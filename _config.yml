@@ -48,13 +48,13 @@ owner:
   disqus-shortname:
   twitter: #peet_47
   facebook: #username
-  google:
-    plus: #username
+  #google:
+    #plus: #username
     #analytics:
     #verify:
     #ad-client:
     #ad-slot:
-  bing-verify:
+  #bing-verify:
   github: #peet47
   #stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   #linkedin: #username
