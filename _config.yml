@@ -48,29 +48,29 @@ owner:
   disqus-shortname:
   twitter: #peet_47
   facebook: #username
-  #google:
-    #plus: #username
-    #analytics:
-    #verify:
-    #ad-client:
-    #ad-slot:
-  #bing-verify:
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
   github: #peet47
-  #stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  #linkedin: #username
-  #xing: #username
-  #instagram: #username
-  #lastfm: #username
-  #tumblr: #username
-  #pinterest: #username
-  #foursquare: #username
-  #steam: #username
-  #dribbble: #username
-  #youtube: #username
-  #soundcloud: #username
-  #weibo: #username
-  #flickr: #username
-  #codepen: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
