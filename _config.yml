@@ -1,3 +1,4 @@
+# Site wide configuration
 locale: "en-US"
 title: Strata # Title of your site
 url: "https://www.massini.xyz # the base hostname & protocol for your site
