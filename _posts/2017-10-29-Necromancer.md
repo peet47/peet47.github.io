@@ -28,7 +28,7 @@ So the system is locked down. Maybe there is something on the wire?
 
 <img src="images/necromancer/wireshark.png" class="fit image">
 
-Bing! Something is trying to send me on 4444. So we start listening.
+Bingo! Something is trying to send me on 4444. So we start listening.
 
 <pre>
   <code class="bash">
