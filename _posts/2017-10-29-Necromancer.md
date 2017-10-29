@@ -67,3 +67,55 @@ cat list.txt | base64 --decode
 </pre>
 
 YEAH, first flag.
+
+
+We move on.
+The hint here is:
+Chant the string of flag1 - u666
+
+OK, lets give it a try. 666 should be a port.
+
+<pre>
+  <code class="bash">
+echo e6078b9b1aac915d11b9fd59791030bf | netcat -u 192.168.99.100 666
+Chant had no affect! Try in a different tongue!
+  </code>
+</pre>
+
+Crap... half of the game. After use master google I found that this is a MD5 summe.
+e6078b9b1aac915d11b9fd59791030bf = opensesame
+
+Lets give it another try.
+
+<pre>
+  <code class="bash">
+  echo opensesame | netcat -u 192.168.99.100 666
+
+  A loud crack of thunder sounds as you are knocked to your feet!
+
+  Dazed, you start to feel fresh air entering your lungs.
+
+  You are free!
+
+  In front of you written in the sand are the words:
+
+  flag2{c39cd4df8f2e35d20d92c2e44de5f7c6}
+
+  As you stand to your feet you notice that you can no longer see the flicker of light in the distance.
+
+  You turn frantically looking in all directions until suddenly, a murder of crows appear on the horizon.
+
+  As they get closer you can see one of the crows is grasping on to an object. As the sun hits the object, shards of light beam from its surface.
+
+  The birds get closer, and closer, and closer.
+
+  Staring up at the crows you can see they are in a formation.
+
+  Squinting your eyes from the light coming from the object, you can see the formation looks like the numeral 80.
+
+  As quickly as the birds appeared, they have left you once again.... alone... tortured by the deafening sound of silence.
+
+  </code>
+</pre>
+
+YEAH, second flag.
