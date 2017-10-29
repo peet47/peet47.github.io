@@ -119,3 +119,25 @@ Lets give it another try.
 </pre>
 
 YEAH, second flag.
+
+Next. The story mentioned that there was a formation like "numeral 80"
+Just to be sure... nmap
+
+<pre>
+  <code class="bash">
+  Starting Nmap 7.60 ( https://nmap.org ) at 2017-10-29 13:06 CET
+Nmap scan report for 192.168.99.100
+Host is up (0.00026s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 08:00:27:DE:4E:19 (Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 5.03 seconds
+
+  </code>
+</pre>
+
+So connect via tcp/80 to the VM.
+
+<img src="images/necromancer/tcp_80.png" class="fit image">
