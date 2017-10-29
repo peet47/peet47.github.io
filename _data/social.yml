@@ -3,7 +3,7 @@
   social_icon: Facebook
   new_window: true
 - name: RSS
-  link: '/feed.xml'
+  link: 'http://www.massini.xyz/feed.xml'
   social_icon: RSS
   new_window: true
 - name: Twitter
