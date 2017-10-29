@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://yourdomain.com/2015/01/30/Lorem/</loc>
+<loc>https://www.massini.xyz/2015/01/30/Lorem/</loc>
 <lastmod>2015-01-30T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://yourdomain.com/update/2015/02/06/welcome-to-jekyll/</loc>
+<loc>https://www.massini.xyz/update/2015/02/06/welcome-to-jekyll/</loc>
 <lastmod>2015-02-06T15:37:44+01:00</lastmod>
 </url>
 <url>
-<loc>http://yourdomain.com/2015/02/17/curabitur/</loc>
+<loc>https://www.massini.xyz/2015/02/17/curabitur/</loc>
 <lastmod>2015-02-17T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://yourdomain.com/</loc>
+<loc>https://www.massini.xyz/2017/10/29/first/</loc>
+<lastmod>2017-10-29T10:42:13+01:00</lastmod>
+</url>
+<url>
+<loc>https://www.massini.xyz/</loc>
 </url>
 </urlset>

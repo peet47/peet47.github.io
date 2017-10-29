@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://yourdomain.com/sitemap.xml
+Sitemap: https://www.massini.xyz/sitemap.xml
