@@ -1,18 +1,39 @@
 ---
-layout: default
-title: "Page not found"
+permalink: /404.html
 sitemap: false
 ---
-<div id="main">
-  <h1>Page not found</h1>
 
-  <p>Uh-oh, you seem to have taken a wrong turn! It looks like this was the result of either:</p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ site.name }} | Page not found</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <ul>
-    <li>A mistyped URL, or a copy-and-paste mistakex</li>
-    <li>A broken link on a web pages or in an email</li>
-    <li>Moved or deleted content</li>
-  </ul>
+  {% if site.local_fonts %}
+    {% include stylesheet.html path="fonts" %}
+  {% endif %}
 
-  <p>I suggest you head to my <a href="/">Home</a> page from here.</p>
-</div>
+  {% if site.blog_theme == "light" %}
+    {% stylesheet notfound-light %}
+    {% include stylesheet.html path="notfound-light" %}
+  {% else %}
+    {% include stylesheet.html path="notfound-dark" %}
+  {% endif %}
+</head>
+<body>
+  <main class="notfound-wrapper">
+    <div class="notfound-content">
+      <h1><a href="{{ '/' | relative_url }}" title="Back to homepage">{{ site.name }}</a></h1>
+      <p>
+        Looks like you got lost. Let's get you back to the <a href="{{ '/' | relative_url }}">homepage</a>!
+      </p>
+    </div>
+  </main>
+
+  {% unless site.local_fonts %}
+    {% include javascript.html path="webfonts" %}
+  {% endunless %}
+</body>
+</html>
