@@ -1,6 +1,6 @@
 locale: "en-US"
 title: 0Skill Blog # Title of your site
-url: "https://www.massini.xyz" # the base hostname & protocol for your site
+url: "http://www.massini.xyz" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
 
