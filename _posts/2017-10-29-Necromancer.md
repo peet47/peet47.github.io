@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Necromancer  
-categories: update
+categories:
 date: 2017-10-29T12:17:23.696+01:00
 ---
 
