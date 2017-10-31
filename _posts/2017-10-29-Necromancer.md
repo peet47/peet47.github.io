@@ -768,3 +768,63 @@ Let's look what we got.
 </pre>
 
 <img src="images/necromancer/wire2.png" class="fit image">
+
+Filtering on wlan.fc.type==2
+We can see a handshake.
+
+<img src="images/necromancer/wire3.png" class="fit image">
+
+<pre>
+  <code class="bash">
+  aircrack-ng necromancer.cap -w rockyou.txt
+Opening necromancer.cap
+Read 2197 packets.
+
+   #  BSSID              ESSID                     Encryption
+
+   1  C4:12:F5:0D:5E:95  community                 WPA (1 handshake)
+
+Choosing first network as target.
+
+Opening necromancer.cap
+Reading packets, please wait...
+
+                                 Aircrack-ng 1.2 rc4
+
+      [00:00:04] 16108/9822769 keys tested (3248.84 k/s)
+
+      Time left: 50 minutes, 19 seconds                          0.16%
+
+                           KEY FOUND! [ death2all ]
+
+
+      Master Key     : 7C F8 5B 00 BC B6 AB ED B0 53 F9 94 2D 4D B7 AC
+                       DB FA 53 6F A9 ED D5 68 79 91 84 7B 7E 6E 0F E7
+
+      Transient Key  : EB 8E 29 CE 8F 13 71 29 AF FF 04 D7 98 4C 32 3C
+                       56 8E 6D 41 55 DD B7 E4 3C 65 9A 18 0B BE A3 B3
+                       C8 9D 7F EE 13 2D 94 3C 3F B7 27 6B 06 53 EB 92
+                       3B 10 A5 B0 FD 1B 10 D4 24 3C B9 D6 AC 23 D5 7D
+
+      EAPOL HMAC     : F6 E5 E2 12 67 F7 1D DC 08 2B 17 9C 72 42 71 8E
+
+  </code>
+</pre>
+
+The hint u161
+
+<pre>
+  <code class="bash">
+  nmap -sS 192.168.99.100
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2017-10-31 19:35 UTC
+Nmap scan report for 192.168.99.100
+Host is up (0.00049s latency).
+All 1000 scanned ports on 192.168.99.100 are closed
+
+Nmap done: 1 IP address (1 host up) scanned in 1.77 seconds
+
+  </code>
+</pre>
+
+o_O ok....
