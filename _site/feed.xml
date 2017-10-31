@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://www.massini.xyz/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.massini.xyz/" rel="alternate" type="text/html" /><updated>2017-10-31T20:09:36+01:00</updated><id>http://www.massini.xyz/</id><title>0Skill Blog</title><subtitle>Awesome description.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://www.massini.xyz/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.massini.xyz/" rel="alternate" type="text/html" /><updated>2017-10-31T20:28:29+01:00</updated><id>http://www.massini.xyz/</id><title>0Skill Blog</title><subtitle>Awesome description.
 </subtitle><author><name>Peter Massini</name><email>peter@massini.xyz</email></author><entry><title>Necromancer</title><link href="http://www.massini.xyz/2017/10/29/Necromancer/" rel="alternate" type="text/html" title="Necromancer" /><published>2017-10-29T12:17:23+01:00</published><updated>2017-10-29T12:17:23+01:00</updated><id>http://www.massini.xyz/2017/10/29/Necromancer</id><content type="html" xml:base="http://www.massini.xyz/2017/10/29/Necromancer/">&lt;p&gt;&lt;img src=&quot;images/necromancer/necro.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A game between colleagues&lt;/p&gt;
@@ -616,22 +616,6 @@ Do you want to wear the talisman?  tada
 
 Nothing happens.
 
-  &lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;With the Spell we found.&lt;/p&gt;
-
-&lt;pre&gt;
-  &lt;code class=&quot;bash&quot;&gt;
-  ./talisman
-You have found a talisman.
-
-The talisman is cold to the touch, and has no words or symbols on it's surface.
-
-Do you want to wear the talisman?  tada
-
-Nothing happens.
-
 python -c ‘print “A”*32’ | ./talisman
 You have found a talisman.
 
@@ -642,6 +626,15 @@ Do you want to wear the talisman?
 Nothing happens.
 
 Segmentation fault
+
+  &lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;With the Spell we found.&lt;/p&gt;
+
+&lt;pre&gt;
+  &lt;code class=&quot;bash&quot;&gt;
+
 
 python -c 'print &quot;A&quot;*32 + &quot;\x37\x8a\x04\x08&quot;' | ./talisman
 You have found a talisman.
@@ -667,7 +660,94 @@ Segmentation fault
   &lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;Yeah, flag4.&lt;/p&gt;</content><author><name>Peter Massini</name><email>peter@massini.xyz</email></author><summary></summary></entry><entry><title>First</title><link href="http://www.massini.xyz/2017/10/29/first/" rel="alternate" type="text/html" title="First" /><published>2017-10-29T10:42:13+01:00</published><updated>2017-10-29T10:42:13+01:00</updated><id>http://www.massini.xyz/2017/10/29/first</id><content type="html" xml:base="http://www.massini.xyz/2017/10/29/first/">&lt;p&gt;New layout new try…&lt;/p&gt;</content><author><name>Peter Massini</name><email>peter@massini.xyz</email></author><summary>New layout new try…</summary></entry><entry><title>Curabitur</title><link href="http://www.massini.xyz/2015/02/17/curabitur/" rel="alternate" type="text/html" title="Curabitur" /><published>2015-02-17T00:00:00+01:00</published><updated>2015-02-17T00:00:00+01:00</updated><id>http://www.massini.xyz/2015/02/17/curabitur</id><content type="html" xml:base="http://www.massini.xyz/2015/02/17/curabitur/">&lt;p&gt;&lt;img src=&quot;/images/fulls/03.jpg&quot; class=&quot;fit image&quot; /&gt; Curabitur orci turpis, egestas placerat velit eget, dictum pellentesque ipsum. Suspendisse potenti. Suspendisse ac maximus arcu. Sed ut mattis ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eleifend odio vitae varius aliquam. Quisque ac pretium nisi. Curabitur tempus urna ac ultrices commodo.&lt;/p&gt;
+&lt;p&gt;Yeah, flag4.&lt;/p&gt;
+
+&lt;p&gt;ea50536158db50247e110a6c89fcf3d3 = blackmagic&lt;/p&gt;
+
+&lt;p&gt;Lets do what we there told:&lt;/p&gt;
+
+&lt;pre&gt;
+  &lt;code class=&quot;bash&quot;&gt;
+  echo blackmagic | nc -u 192.168.99.100 31337
+
+
+As you chant the words, a hissing sound echoes from the ice walls.
+
+The blue aura disappears from the cave entrance.
+
+You enter the cave and see that it is dimly lit by torches; shadows dancing against the rock wall as you descend deeper and deeper into the mountain.
+
+You hear high pitched screeches coming from within the cave, and you start to feel a gentle breeze.
+
+The screeches are getting closer, and with it the breeze begins to turn into an ice cold wind.
+
+Suddenly, you are attacked by a swarm of bats!
+
+You aimlessly thrash at the air in front of you!
+
+The bats continue their relentless attack, until.... silence.
+
+Looking around you see no sign of any bats, and no indication of the struggle which had just occurred.
+
+Looking towards one of the torches, you see something on the cave wall.
+
+You walk closer, and notice a pile of mutilated bats lying on the cave floor.  Above them, a word etched in blood on the wall.
+
+/thenecromancerwillabsorbyoursoul
+
+flag5{0766c36577af58e15545f099a3b15e60}
+
+
+  &lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Yeah, Flag5.&lt;/p&gt;
+
+&lt;p&gt;Going to http://192.168.99.100//thenecromancerwillabsorbyoursoul/ revealed flag6.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/necromancer/thenecromancerwillabsorbyoursoul.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;pre&amp;gt;
+  &lt;code class=&quot;bash&quot;&gt;
+  Again he stares at you with deathly hollow eyes.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;He is standing in a doorway; a staff in one hand, and an object in the other.&lt;/p&gt;
+
+&lt;p&gt;Smirking, the necromancer holds the staff and the object in the air.&lt;/p&gt;
+
+&lt;p&gt;He points his staff in your direction, and the stench of death and decay begins to fill the air.&lt;/p&gt;
+
+&lt;p&gt;You stare into his eyes and then…….&lt;/p&gt;
+
+&lt;p&gt;…… darkness. You open your eyes and find yourself lying on the damp floor of the cave.&lt;/p&gt;
+
+&lt;p&gt;The amulet must have saved you from whatever spell the necromancer had cast.&lt;/p&gt;
+
+&lt;p&gt;You stand to your feet. Behind you, only darkness.&lt;/p&gt;
+
+&lt;p&gt;Before you, a large door with the symbol of a skull engraved into the surface.&lt;/p&gt;
+
+&lt;p&gt;Looking closer at the skull, you can see u161 engraved into the forehead.
+  &amp;lt;/code&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Following the link http://192.168.99.100//thenecromancerwillabsorbyoursoul/necromancer we got the necromancer.&lt;/p&gt;
+
+&lt;p&gt;Let’s look what we got.&lt;/p&gt;
+
+&lt;pre&gt;
+  &lt;code class=&quot;bash&quot;&gt;
+  file necromancer
+  necromancer: bzip2 compressed data, block size = 900k
+  bzip2 -d necromancer
+  bzip2: Can't guess original name for necromancer -- using necromancer.out
+  file necromancer.out
+  necromancer.out: POSIX tar archive (GNU)
+  tar xfv necromancer.out
+  necromancer.cap
+  &lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/necromancer/wire2.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Massini</name><email>peter@massini.xyz</email></author><summary></summary></entry><entry><title>First</title><link href="http://www.massini.xyz/2017/10/29/first/" rel="alternate" type="text/html" title="First" /><published>2017-10-29T10:42:13+01:00</published><updated>2017-10-29T10:42:13+01:00</updated><id>http://www.massini.xyz/2017/10/29/first</id><content type="html" xml:base="http://www.massini.xyz/2017/10/29/first/">&lt;p&gt;New layout new try…&lt;/p&gt;</content><author><name>Peter Massini</name><email>peter@massini.xyz</email></author><summary>New layout new try…</summary></entry><entry><title>Curabitur</title><link href="http://www.massini.xyz/2015/02/17/curabitur/" rel="alternate" type="text/html" title="Curabitur" /><published>2015-02-17T00:00:00+01:00</published><updated>2015-02-17T00:00:00+01:00</updated><id>http://www.massini.xyz/2015/02/17/curabitur</id><content type="html" xml:base="http://www.massini.xyz/2015/02/17/curabitur/">&lt;p&gt;&lt;img src=&quot;/images/fulls/03.jpg&quot; class=&quot;fit image&quot; /&gt; Curabitur orci turpis, egestas placerat velit eget, dictum pellentesque ipsum. Suspendisse potenti. Suspendisse ac maximus arcu. Sed ut mattis ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eleifend odio vitae varius aliquam. Quisque ac pretium nisi. Curabitur tempus urna ac ultrices commodo.&lt;/p&gt;
 
 &lt;p&gt;Curabitur iaculis est at mattis mattis. Aliquam erat volutpat. Etiam vitae cursus quam. Nunc ultricies nunc non lorem fringilla cursus. Etiam dapibus libero ac turpis accumsan pulvinar. Sed auctor velit eget mi consequat bibendum. Aliquam interdum purus eget metus pretium ullamcorper.&lt;/p&gt;
 
