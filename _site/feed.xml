@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://www.massini.xyz/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.massini.xyz/" rel="alternate" type="text/html" /><updated>2017-10-31T21:21:41+01:00</updated><id>http://www.massini.xyz/</id><title>0Skill Blog</title><subtitle>Awesome description.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://www.massini.xyz/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.massini.xyz/" rel="alternate" type="text/html" /><updated>2017-10-31T21:23:57+01:00</updated><id>http://www.massini.xyz/</id><title>0Skill Blog</title><subtitle>Awesome description.
 </subtitle><author><name>Peter Massini</name><email>peter@massini.xyz</email></author><entry><title>Necromancer</title><link href="http://www.massini.xyz/2017/10/29/Necromancer/" rel="alternate" type="text/html" title="Necromancer" /><published>2017-10-29T12:17:23+01:00</published><updated>2017-10-29T12:17:23+01:00</updated><id>http://www.massini.xyz/2017/10/29/Necromancer</id><content type="html" xml:base="http://www.massini.xyz/2017/10/29/Necromancer/">&lt;p&gt;&lt;img src=&quot;images/necromancer/necro.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A game between colleagues&lt;/p&gt;
@@ -936,60 +936,66 @@ Hydra (http://www.thc.org/thc-hydra) finished at 2017-10-31 20:02:01
 
 &lt;p&gt;ok so now connect with everything we have.&lt;/p&gt;
 
-&lt;p&gt;pre&amp;gt;
+&lt;pre&gt;
   &lt;code class=&quot;bash&quot;&gt;
   ssh demonslayer@192.168.99.100
-demonslayer@192.168.99.100's password:&lt;/code&gt;&lt;/p&gt;
+demonslayer@192.168.99.100's password:
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;      .                                                      .
-    .n                   .                 .                  n.   .   .dP                  dP                   9b                 9b.    .  4    qXb         .       dX                     Xb       .        dXp     t dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb 9XXb._       _.dXXXXb dXXXXbo.                 .odXXXXb dXXXXb._       _.dXXP  9XXXXXXXXXXXXXXXXXXXVXXXXXXXXOo.           .oOXXXXXXXXVXXXXXXXXXXXXXXXXXXXP   `9XXXXXXXXXXXXXXXXXXXXX'~   ~`OOO8b   d8OOO'~   ~`XXXXXXXXXXXXXXXXXXXXXP'
-`9XXXXXXXXXXXP' `9XX'          `98v8P'          `XXP' `9XXXXXXXXXXXP'
-    ~~~~~~~       9X.          .db|db.          .XP       ~~~~~~~
-                    )b.  .dbo.dP'`v'`9b.odb.  .dX(
-                  ,dXXXXXXXXXXXb     dXXXXXXXXXXXb.
-                 dXXXXXXXXXXXP'   .   `9XXXXXXXXXXXb
-                dXXXXXXXXXXXXb   d|b   dXXXXXXXXXXXXb
-                9XXb'   `XXXXXb.dX|Xb.dXXXXX'   `dXXP
-                 `'      9XXXXXX(   )XXXXXXP      `'
-                          XXXX X.`v'.X XXXX
-                          XP^X'`b   d'`X^XX
-                          X. 9  `   '  P )X
-                          `b  `       '  d'
-                           `             '                       
-                           THE NECROMANCER!
-                             by  @xerubus
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+          .                                                      .
+        .n                   .                 .                  n.
+  .   .dP                  dP                   9b                 9b.    .
+ 4    qXb         .       dX                     Xb       .        dXp     t
+dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
+9XXb._       _.dXXXXb dXXXXbo.                 .odXXXXb dXXXXb._       _.dXXP
+ 9XXXXXXXXXXXXXXXXXXXVXXXXXXXXOo.           .oOXXXXXXXXVXXXXXXXXXXXXXXXXXXXP
+  `9XXXXXXXXXXXXXXXXXXXXX'~   ~`OOO8b   d8OOO'~   ~`XXXXXXXXXXXXXXXXXXXXXP'
+    `9XXXXXXXXXXXP' `9XX'          `98v8P'          `XXP' `9XXXXXXXXXXXP'
+        ~~~~~~~       9X.          .db|db.          .XP       ~~~~~~~
+                        )b.  .dbo.dP'`v'`9b.odb.  .dX(
+                      ,dXXXXXXXXXXXb     dXXXXXXXXXXXb.
+                     dXXXXXXXXXXXP'   .   `9XXXXXXXXXXXb
+                    dXXXXXXXXXXXXb   d|b   dXXXXXXXXXXXXb
+                    9XXb'   `XXXXXb.dX|Xb.dXXXXX'   `dXXP
+                     `'      9XXXXXX(   )XXXXXXP      `'
+                              XXXX X.`v'.X XXXX
+                              XP^X'`b   d'`X^XX
+                              X. 9  `   '  P )X
+                              `b  `       '  d'
+                               `             '                       
+                               THE NECROMANCER!
+                                 by  @xerubus
 
-&lt;p&gt;$ whoami
+
+$ whoami
 demonslayer
 $ ls
 flag8.txt
-$ cat flag8.txt                                                                                                      &lt;br /&gt;
-You enter the Necromancer’s Lair!&lt;/p&gt;
+$ cat flag8.txt                                                                                                        
+You enter the Necromancer's Lair!
 
-&lt;p&gt;A stench of decay fills this place.&lt;/p&gt;
+A stench of decay fills this place.  
 
-&lt;p&gt;Jars filled with parts of creatures litter the bookshelves.&lt;/p&gt;
+Jars filled with parts of creatures litter the bookshelves.
 
-&lt;p&gt;A fire with flames of green burns coldly in the distance.&lt;/p&gt;
+A fire with flames of green burns coldly in the distance.
 
-&lt;p&gt;Standing in the middle of the room with his back to you is the Necromancer.&lt;/p&gt;
+Standing in the middle of the room with his back to you is the Necromancer.  
 
-&lt;p&gt;In front of him lies a corpse, indistinguishable from any living creature you have seen before.&lt;/p&gt;
+In front of him lies a corpse, indistinguishable from any living creature you have seen before.
 
-&lt;p&gt;He holds a staff in one hand, and the flickering object in the other.&lt;/p&gt;
+He holds a staff in one hand, and the flickering object in the other.
 
-&lt;p&gt;“You are a fool to follow me here!  Do you not know who I am!”&lt;/p&gt;
+&quot;You are a fool to follow me here!  Do you not know who I am!&quot;
 
-&lt;p&gt;The necromancer turns to face you.  Dark words fill the air!&lt;/p&gt;
+The necromancer turns to face you.  Dark words fill the air!
 
-&lt;p&gt;“You are damned already my friend.  Now prepare for your own death!”&lt;/p&gt;
+&quot;You are damned already my friend.  Now prepare for your own death!&quot;
 
-&lt;p&gt;Defend yourself!  Counter attack the Necromancer’s spells at u777!&lt;/p&gt;
+Defend yourself!  Counter attack the Necromancer's spells at u777!
 
-&lt;p&gt;&amp;lt;/code&amp;gt;
-&amp;lt;/pre&amp;gt;&lt;/p&gt;
+
+  &lt;/code&gt;
+&lt;/pre&gt;
 
 &lt;pre&gt;
   &lt;code class=&quot;bash&quot;&gt;

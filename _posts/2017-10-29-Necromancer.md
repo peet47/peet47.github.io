@@ -956,7 +956,7 @@ Hydra (http://www.thc.org/thc-hydra) finished at 2017-10-31 20:02:01
 
 ok so now connect with everything we have.
 
-pre>
+<pre>
   <code class="bash">
   ssh demonslayer@192.168.99.100
 demonslayer@192.168.99.100's password:
