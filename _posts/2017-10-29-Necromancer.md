@@ -1181,3 +1181,6 @@ User demonslayer may run the following commands on thenecromancer:
 
   </code>
 </pre>
+
+
+Cool VM. Let's see what will be the next challenges.
