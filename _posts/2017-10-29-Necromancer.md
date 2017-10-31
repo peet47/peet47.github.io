@@ -827,7 +827,7 @@ Nmap done: 1 IP address (1 host up) scanned in 1.77 seconds
   </code>
 </pre>
 
-o_O ok....
+o_O ok...
 <pre>
   <code class="bash">
   nmap -sS 192.168.99.100 -p 161
