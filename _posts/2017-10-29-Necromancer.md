@@ -718,7 +718,7 @@ Going to http://192.168.99.100//thenecromancerwillabsorbyoursoul/ revealed flag6
 
 <img src="images/necromancer/thenecromancerwillabsorbyoursoul.png" class="fit image">
 
-pre>
+<pre>
   <code class="bash">
   Again he stares at you with deathly hollow eyes.
 

@@ -765,32 +765,41 @@ flag5{0766c36577af58e15545f099a3b15e60}
 
 <p><img src="images/necromancer/thenecromancerwillabsorbyoursoul.png" class="fit image" /></p>
 
-<p>pre&gt;
+<pre>
   <code class="bash">
-  Again he stares at you with deathly hollow eyes.</code></p>
+  Again he stares at you with deathly hollow eyes.
 
-<p>He is standing in a doorway; a staff in one hand, and an object in the other.</p>
+He is standing in a doorway; a staff in one hand, and an object in the other.
 
-<p>Smirking, the necromancer holds the staff and the object in the air.</p>
+Smirking, the necromancer holds the staff and the object in the air.
 
-<p>He points his staff in your direction, and the stench of death and decay begins to fill the air.</p>
+He points his staff in your direction, and the stench of death and decay begins to fill the air.
 
-<p>You stare into his eyes and then…….</p>
+You stare into his eyes and then.......
 
-<p>…… darkness. You open your eyes and find yourself lying on the damp floor of the cave.</p>
 
-<p>The amulet must have saved you from whatever spell the necromancer had cast.</p>
 
-<p>You stand to your feet. Behind you, only darkness.</p>
 
-<p>Before you, a large door with the symbol of a skull engraved into the surface.</p>
 
-<p>Looking closer at the skull, you can see u161 engraved into the forehead.
-  &lt;/code&gt;</p>
 
-<p>Following the link http://192.168.99.100//thenecromancerwillabsorbyoursoul/necromancer we got the necromancer.</p>
 
-<p>Let’s look what we got.</p>
+
+...... darkness. You open your eyes and find yourself lying on the damp floor of the cave.
+
+The amulet must have saved you from whatever spell the necromancer had cast.
+
+You stand to your feet. Behind you, only darkness.
+
+Before you, a large door with the symbol of a skull engraved into the surface.
+
+Looking closer at the skull, you can see u161 engraved into the forehead.
+  </code>
+
+
+Following the link http://192.168.99.100//thenecromancerwillabsorbyoursoul/necromancer we got the necromancer.
+
+Let's look what we got.
+
 
 <pre>
   <code class="bash">
@@ -805,12 +814,12 @@ flag5{0766c36577af58e15545f099a3b15e60}
   </code>
 </pre>
 
-<p><img src="images/necromancer/wire2.png" class="fit image" /></p>
+<img src="images/necromancer/wire2.png" class="fit image" />
 
-<p>Filtering on wlan.fc.type==2
-We can see a handshake.</p>
+Filtering on wlan.fc.type==2
+We can see a handshake.
 
-<p><img src="images/necromancer/wire3.png" class="fit image" /></p>
+<img src="images/necromancer/wire3.png" class="fit image" />
 
 <pre>
   <code class="bash">
@@ -849,7 +858,7 @@ Reading packets, please wait...
   </code>
 </pre>
 
-<p>The hint u161</p>
+The hint u161
 
 <pre>
   <code class="bash">
@@ -865,7 +874,7 @@ Nmap done: 1 IP address (1 host up) scanned in 1.77 seconds
   </code>
 </pre>
 
-<p>o_O ok…</p>
+o_O ok...
 <pre>
   <code class="bash">
   nmap -sS 192.168.99.100 -p 161
@@ -883,7 +892,7 @@ Nmap done: 1 IP address (1 host up) scanned in 1.77 seconds
   </code>
 </pre>
 
-<p>OK, it is open. It’s msf time.</p>
+OK, it is open. It's msf time.
 
 <pre>
   <code class="bash">
@@ -957,7 +966,7 @@ iso.3.6.1.2.1.1.6.0 = STRING: "Locked - death2allrw!"
   </code>
 </pre>
 
-<p>Let’s unlock the door.</p>
+Let's unlock the door.
 
 <pre>
   <code class="bash">
@@ -969,13 +978,13 @@ iso.3.6.1.2.1.1.6.0 = STRING: "flag7{9e5494108d10bbd5f9e7ae52239546c4} - t22"
   </code>
 </pre>
 
-<p>Flag 7, Yeah…</p>
+Flag 7, Yeah...
 
-<p>9e5494108d10bbd5f9e7ae52239546c4 = demonslayer</p>
+9e5494108d10bbd5f9e7ae52239546c4 = demonslayer
 
-<p>finaly ssh :)</p>
+finaly ssh :)
 
-<p>but no password so, hydra it’s your turn.</p>
+but no password so, hydra it's your turn.
 
 <pre>
   <code class="bash">
@@ -992,7 +1001,7 @@ Hydra (http://www.thc.org/thc-hydra) finished at 2017-10-31 20:02:01
   </code>
 </pre>
 
-<p>ok so now connect with everything we have.</p>
+ok so now connect with everything we have.
 
 <pre>
   <code class="bash">
@@ -1108,7 +1117,7 @@ On the ground is a small vile.
   </code>
 </pre>
 
-<p>hmm what now, what maybe changed…</p>
+hmm what now, what maybe changed...
 
 <pre>
   <code class="bash">
@@ -1128,7 +1137,7 @@ On the ground is a small vile.
   </code>
 </pre>
 
-<p>There is now a file called .smallvile</p>
+There is now a file called .smallvile
 
 <pre>
   <code class="bash">
@@ -1144,7 +1153,7 @@ You drink the elixir and feel a great power within your veins!
   </code>
 </pre>
 
-<p>Hmm is it maybe…</p>
+Hmm is it maybe...
 
 <pre>
   <code class="bash">
@@ -1158,7 +1167,7 @@ You drink the elixir and feel a great power within your veins!
   </code>
 </pre>
 
-<p>maybe this helps…</p>
+maybe this helps...
 
 <pre>
   <code class="bash">
@@ -1220,7 +1229,9 @@ User demonslayer may run the following commands on thenecromancer:
   </code>
 </pre>
 
-<p>Cool VM. Let’s see what will be the next challenges.</p>
+
+Cool VM. Let's see what will be the next challenges.
+</pre>
 
         <p class="editor-link"><a href="cloudcannon:collections/_posts/2017-10-29-Necromancer.md" class="button"><strong>&#9998;</strong> Edit post</a></p>
       </section>

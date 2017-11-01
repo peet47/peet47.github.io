@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://www.massini.xyz/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.massini.xyz/" rel="alternate" type="text/html" /><updated>2017-10-31T21:29:22+01:00</updated><id>http://www.massini.xyz/</id><title>0Skill Blog</title><subtitle>Awesome description.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://www.massini.xyz/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.massini.xyz/" rel="alternate" type="text/html" /><updated>2017-11-01T07:55:15+01:00</updated><id>http://www.massini.xyz/</id><title>0Skill Blog</title><subtitle>Awesome description.
 </subtitle><author><name>Peter Massini</name><email>peter@massini.xyz</email></author><entry><title>Necromancer</title><link href="http://www.massini.xyz/2017/10/29/Necromancer/" rel="alternate" type="text/html" title="Necromancer" /><published>2017-10-29T12:17:23+01:00</published><updated>2017-10-29T12:17:23+01:00</updated><id>http://www.massini.xyz/2017/10/29/Necromancer</id><content type="html" xml:base="http://www.massini.xyz/2017/10/29/Necromancer/">&lt;p&gt;&lt;img src=&quot;images/necromancer/necro.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A game between colleagues&lt;/p&gt;
@@ -707,32 +707,41 @@ flag5{0766c36577af58e15545f099a3b15e60}
 
 &lt;p&gt;&lt;img src=&quot;images/necromancer/thenecromancerwillabsorbyoursoul.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;pre&amp;gt;
+&lt;pre&gt;
   &lt;code class=&quot;bash&quot;&gt;
-  Again he stares at you with deathly hollow eyes.&lt;/code&gt;&lt;/p&gt;
+  Again he stares at you with deathly hollow eyes.
 
-&lt;p&gt;He is standing in a doorway; a staff in one hand, and an object in the other.&lt;/p&gt;
+He is standing in a doorway; a staff in one hand, and an object in the other.
 
-&lt;p&gt;Smirking, the necromancer holds the staff and the object in the air.&lt;/p&gt;
+Smirking, the necromancer holds the staff and the object in the air.
 
-&lt;p&gt;He points his staff in your direction, and the stench of death and decay begins to fill the air.&lt;/p&gt;
+He points his staff in your direction, and the stench of death and decay begins to fill the air.
 
-&lt;p&gt;You stare into his eyes and then…….&lt;/p&gt;
+You stare into his eyes and then.......
 
-&lt;p&gt;…… darkness. You open your eyes and find yourself lying on the damp floor of the cave.&lt;/p&gt;
 
-&lt;p&gt;The amulet must have saved you from whatever spell the necromancer had cast.&lt;/p&gt;
 
-&lt;p&gt;You stand to your feet. Behind you, only darkness.&lt;/p&gt;
 
-&lt;p&gt;Before you, a large door with the symbol of a skull engraved into the surface.&lt;/p&gt;
 
-&lt;p&gt;Looking closer at the skull, you can see u161 engraved into the forehead.
-  &amp;lt;/code&amp;gt;&lt;/p&gt;
 
-&lt;p&gt;Following the link http://192.168.99.100//thenecromancerwillabsorbyoursoul/necromancer we got the necromancer.&lt;/p&gt;
 
-&lt;p&gt;Let’s look what we got.&lt;/p&gt;
+
+...... darkness. You open your eyes and find yourself lying on the damp floor of the cave.
+
+The amulet must have saved you from whatever spell the necromancer had cast.
+
+You stand to your feet. Behind you, only darkness.
+
+Before you, a large door with the symbol of a skull engraved into the surface.
+
+Looking closer at the skull, you can see u161 engraved into the forehead.
+  &lt;/code&gt;
+
+
+Following the link http://192.168.99.100//thenecromancerwillabsorbyoursoul/necromancer we got the necromancer.
+
+Let's look what we got.
+
 
 &lt;pre&gt;
   &lt;code class=&quot;bash&quot;&gt;
@@ -747,12 +756,12 @@ flag5{0766c36577af58e15545f099a3b15e60}
   &lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/necromancer/wire2.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;images/necromancer/wire2.png&quot; class=&quot;fit image&quot; /&gt;
 
-&lt;p&gt;Filtering on wlan.fc.type==2
-We can see a handshake.&lt;/p&gt;
+Filtering on wlan.fc.type==2
+We can see a handshake.
 
-&lt;p&gt;&lt;img src=&quot;images/necromancer/wire3.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;images/necromancer/wire3.png&quot; class=&quot;fit image&quot; /&gt;
 
 &lt;pre&gt;
   &lt;code class=&quot;bash&quot;&gt;
@@ -791,7 +800,7 @@ Reading packets, please wait...
   &lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;The hint u161&lt;/p&gt;
+The hint u161
 
 &lt;pre&gt;
   &lt;code class=&quot;bash&quot;&gt;
@@ -807,7 +816,7 @@ Nmap done: 1 IP address (1 host up) scanned in 1.77 seconds
   &lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;o_O ok…&lt;/p&gt;
+o_O ok...
 &lt;pre&gt;
   &lt;code class=&quot;bash&quot;&gt;
   nmap -sS 192.168.99.100 -p 161
@@ -825,7 +834,7 @@ Nmap done: 1 IP address (1 host up) scanned in 1.77 seconds
   &lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;OK, it is open. It’s msf time.&lt;/p&gt;
+OK, it is open. It's msf time.
 
 &lt;pre&gt;
   &lt;code class=&quot;bash&quot;&gt;
@@ -899,7 +908,7 @@ iso.3.6.1.2.1.1.6.0 = STRING: &quot;Locked - death2allrw!&quot;
   &lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;Let’s unlock the door.&lt;/p&gt;
+Let's unlock the door.
 
 &lt;pre&gt;
   &lt;code class=&quot;bash&quot;&gt;
@@ -911,13 +920,13 @@ iso.3.6.1.2.1.1.6.0 = STRING: &quot;flag7{9e5494108d10bbd5f9e7ae52239546c4} - t2
   &lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;Flag 7, Yeah…&lt;/p&gt;
+Flag 7, Yeah...
 
-&lt;p&gt;9e5494108d10bbd5f9e7ae52239546c4 = demonslayer&lt;/p&gt;
+9e5494108d10bbd5f9e7ae52239546c4 = demonslayer
 
-&lt;p&gt;finaly ssh :)&lt;/p&gt;
+finaly ssh :)
 
-&lt;p&gt;but no password so, hydra it’s your turn.&lt;/p&gt;
+but no password so, hydra it's your turn.
 
 &lt;pre&gt;
   &lt;code class=&quot;bash&quot;&gt;
@@ -934,7 +943,7 @@ Hydra (http://www.thc.org/thc-hydra) finished at 2017-10-31 20:02:01
   &lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;ok so now connect with everything we have.&lt;/p&gt;
+ok so now connect with everything we have.
 
 &lt;pre&gt;
   &lt;code class=&quot;bash&quot;&gt;
@@ -1050,7 +1059,7 @@ On the ground is a small vile.
   &lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;hmm what now, what maybe changed…&lt;/p&gt;
+hmm what now, what maybe changed...
 
 &lt;pre&gt;
   &lt;code class=&quot;bash&quot;&gt;
@@ -1070,7 +1079,7 @@ On the ground is a small vile.
   &lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;There is now a file called .smallvile&lt;/p&gt;
+There is now a file called .smallvile
 
 &lt;pre&gt;
   &lt;code class=&quot;bash&quot;&gt;
@@ -1086,7 +1095,7 @@ You drink the elixir and feel a great power within your veins!
   &lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;Hmm is it maybe…&lt;/p&gt;
+Hmm is it maybe...
 
 &lt;pre&gt;
   &lt;code class=&quot;bash&quot;&gt;
@@ -1100,7 +1109,7 @@ You drink the elixir and feel a great power within your veins!
   &lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;maybe this helps…&lt;/p&gt;
+maybe this helps...
 
 &lt;pre&gt;
   &lt;code class=&quot;bash&quot;&gt;
@@ -1162,7 +1171,9 @@ User demonslayer may run the following commands on thenecromancer:
   &lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;Cool VM. Let’s see what will be the next challenges.&lt;/p&gt;</content><author><name>Peter Massini</name><email>peter@massini.xyz</email></author><summary></summary></entry><entry><title>First</title><link href="http://www.massini.xyz/2017/10/29/first/" rel="alternate" type="text/html" title="First" /><published>2017-10-29T10:42:13+01:00</published><updated>2017-10-29T10:42:13+01:00</updated><id>http://www.massini.xyz/2017/10/29/first</id><content type="html" xml:base="http://www.massini.xyz/2017/10/29/first/">&lt;p&gt;New layout new try…&lt;/p&gt;</content><author><name>Peter Massini</name><email>peter@massini.xyz</email></author><summary>New layout new try…</summary></entry><entry><title>Curabitur</title><link href="http://www.massini.xyz/2015/02/17/curabitur/" rel="alternate" type="text/html" title="Curabitur" /><published>2015-02-17T00:00:00+01:00</published><updated>2015-02-17T00:00:00+01:00</updated><id>http://www.massini.xyz/2015/02/17/curabitur</id><content type="html" xml:base="http://www.massini.xyz/2015/02/17/curabitur/">&lt;p&gt;&lt;img src=&quot;/images/fulls/03.jpg&quot; class=&quot;fit image&quot; /&gt; Curabitur orci turpis, egestas placerat velit eget, dictum pellentesque ipsum. Suspendisse potenti. Suspendisse ac maximus arcu. Sed ut mattis ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eleifend odio vitae varius aliquam. Quisque ac pretium nisi. Curabitur tempus urna ac ultrices commodo.&lt;/p&gt;
+
+Cool VM. Let's see what will be the next challenges.
+&lt;/pre&gt;</content><author><name>Peter Massini</name><email>peter@massini.xyz</email></author><summary></summary></entry><entry><title>First</title><link href="http://www.massini.xyz/2017/10/29/first/" rel="alternate" type="text/html" title="First" /><published>2017-10-29T10:42:13+01:00</published><updated>2017-10-29T10:42:13+01:00</updated><id>http://www.massini.xyz/2017/10/29/first</id><content type="html" xml:base="http://www.massini.xyz/2017/10/29/first/">&lt;p&gt;New layout new try…&lt;/p&gt;</content><author><name>Peter Massini</name><email>peter@massini.xyz</email></author><summary>New layout new try…</summary></entry><entry><title>Curabitur</title><link href="http://www.massini.xyz/2015/02/17/curabitur/" rel="alternate" type="text/html" title="Curabitur" /><published>2015-02-17T00:00:00+01:00</published><updated>2015-02-17T00:00:00+01:00</updated><id>http://www.massini.xyz/2015/02/17/curabitur</id><content type="html" xml:base="http://www.massini.xyz/2015/02/17/curabitur/">&lt;p&gt;&lt;img src=&quot;/images/fulls/03.jpg&quot; class=&quot;fit image&quot; /&gt; Curabitur orci turpis, egestas placerat velit eget, dictum pellentesque ipsum. Suspendisse potenti. Suspendisse ac maximus arcu. Sed ut mattis ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eleifend odio vitae varius aliquam. Quisque ac pretium nisi. Curabitur tempus urna ac ultrices commodo.&lt;/p&gt;
 
 &lt;p&gt;Curabitur iaculis est at mattis mattis. Aliquam erat volutpat. Etiam vitae cursus quam. Nunc ultricies nunc non lorem fringilla cursus. Etiam dapibus libero ac turpis accumsan pulvinar. Sed auctor velit eget mi consequat bibendum. Aliquam interdum purus eget metus pretium ullamcorper.&lt;/p&gt;
 
